@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>五笔-字根练习游戏</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link rel="stylesheet" type="text/css" href="./amazeui/css/amazeui.min.css">
+</head>
+
+<body>
+
+<div class="titlebar">
+	<div id="msgbar" class="am-g am-g-fixed"> 
+		<span class="am-u-sm-3 am-u-md-4 am-u-lg-2" style="top:8px"> 
+			<span id="sc-time">时间：</span>
+			<span id="time">00:00</span>
+		</span>
+		<span class="am-u-sm-3 am-u-md-4 am-u-lg-2" style="top:8px">
+			<span id="sc-spead">速度：</span>
+			<span id="spead">1</span>
+		</span>
+		<span class="am-u-md-2 am-u-lg-1" style="top:8px;right:8px">
+			<span id="bu-start" type="button" class="am-btn am-btn-secondary">开始</span>
+		</span>
+	</div>
+</div>
+
+<canvas id="canvas-body" class="canvas-body">
+	Your browser Can't support HTML5 canvas,Please using last version chrome.
+</canvas>
+
+<!--div id="zhezhao">游戏结束,您用时<button id="b1">再来一局</button></div-->
+</body>
+
+<script src="./scripts/data.js"></script>
+<script src="./amazeui/js/jquery.min.js"></script>
+<script src="./scripts/index.js"></script>
+<!--script src="./scripts/author.js"></script-->
+</html>
